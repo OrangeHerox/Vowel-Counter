@@ -1,0 +1,47 @@
+body {
+  background-image: linear-gradient(to left,#264143,#eddcd9);
+  color:#264143;
+}
+
+input,textarea{
+  display:block;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-color:#de5499;
+}
+
+input {
+  text-align: center;
+  width:100%;
+  border-radius:10px;
+  visibility: hidden;
+  border:1px solid #264143;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border:1px solid #de5499;
+  padding:20px;
+  border-radius:20px;
+  background-color:#f2ebe9;
+}
+
+#count {
+  border:1px solid;
+  color:white;
+  background-color:#e99f4c;
+}
+
+#clear {
+  border:1px solid;
+  color:white;
+  background-color:#264143;
+}
+
